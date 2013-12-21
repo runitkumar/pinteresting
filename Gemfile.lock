@@ -1,9 +1,8 @@
 GIT
   remote: git://github.com/thomas-mcdonald/bootstrap-sass.git
-  revision: 0e88056ac5d58fb0bbd23d3fe929eac01712d964
-  branch: 3
+  revision: 5bd81ba89df10ce1650022b5d2b763fb5ed615b6
   specs:
-    bootstrap-sass (3.0.0.0)
+    bootstrap-sass (3.0.3.0)
       sass (~> 3.2)
 
 GEM
