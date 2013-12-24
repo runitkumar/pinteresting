@@ -1,6 +1,6 @@
 GIT
   remote: git://github.com/thomas-mcdonald/bootstrap-sass.git
-  revision: 5bd81ba89df10ce1650022b5d2b763fb5ed615b6
+  revision: 7f5e93f97ff8f5bfc8ed309fc940cdd723f4bbbe
   specs:
     bootstrap-sass (3.0.3.0)
       sass (~> 3.2)
@@ -42,7 +42,7 @@ GEM
     builder (3.1.4)
     climate_control (0.0.3)
       activesupport (>= 3.0)
-    cocaine (0.5.1)
+    cocaine (0.5.3)
       climate_control (>= 0.0.3, < 1.0)
     coffee-rails (4.0.1)
       coffee-script (>= 2.2.0)
@@ -83,10 +83,10 @@ GEM
     nokogiri (1.6.1)
       mini_portile (~> 0.5.0)
     orm_adapter (0.5.0)
-    paperclip (3.5.0)
+    paperclip (3.5.2)
       activemodel (>= 3.0.0)
       activesupport (>= 3.0.0)
-      cocaine (~> 0.5.0)
+      cocaine (~> 0.5.3)
       mime-types
     pg (0.17.1)
     polyglot (0.3.3)
