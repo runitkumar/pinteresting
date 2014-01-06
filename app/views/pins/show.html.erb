@@ -5,8 +5,9 @@
 				<%= image_tag @pin.image.url(:medium) %>
 			</div>
 			<div class="panel-body">
-				<p><%= @pin.description %></p>
-				<p><strong><%= @pin.user.name if @pin.user %></strong></p>
+				<p><h3><%= @pin.description %></h3></p>
+				<p><strong>Created by: <%= @pin.user.name if @pin.user %></strong></p>
+				<p>Tags: <%= raw @pin.tag_list.map { |t| link_to t, tag_path(t) }.join(', ') %></p>
 
 				<% if @pin.user == current_user %>
           <%= link_to edit_pin_path(@pin) do %>

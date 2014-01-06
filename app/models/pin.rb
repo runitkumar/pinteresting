@@ -5,5 +5,8 @@ class Pin < ActiveRecord::Base
 
 	validates :description, presence: true
 	validates :image, presence: true
+	validates :tag_list, presence: true
+
+	acts_as_taggable
 
 end

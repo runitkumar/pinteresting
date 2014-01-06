@@ -1,9 +1,11 @@
 Pinteresting::Application.routes.draw do
+  get 'tags/:tag', to: 'pins#index', as: :tag
   resources :pins
 
   devise_for :users
   root "pins#index"
   get "about" => "pages#about"
+  get "tags" => "pins#tags"
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
